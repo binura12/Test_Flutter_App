@@ -10,25 +10,48 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Space App",
-      home: Scaffold(
-        backgroundColor: Colors.black26,
-        appBar: AppBar(
-          title: const Text("Space App"),
-          backgroundColor:  Colors.orangeAccent,
-        ),
-        body: Center(
-          child: Column(
+      debugShowCheckedModeBanner: false,
+      home: SafeArea(
+        child: Scaffold(
+          backgroundColor: Colors.black,
+          body: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Padding(
-                padding: const EdgeInsets.only(top: 100, left: 100),
-                child: Image.asset("assets/space1.png", height: 200,),
+              Container(
+                height: 135,
+                width: double.infinity,
+                decoration: BoxDecoration(
+                  color: const Color.fromARGB(255, 255, 230, 0),
+                  borderRadius: BorderRadius.circular(20),
+                ),
               ),
-              const SizedBox(height: 50,),
-              Image.asset("assets/space2.png", height: 200,),
+              Container(
+                height: 135,
+                width: double.infinity,
+                decoration: BoxDecoration(
+                  color: const Color.fromARGB(255, 255, 230, 0),
+                  borderRadius: BorderRadius.circular(20),
+                ),
+              ),
+              Container(
+                height: 135,
+                width: double.infinity,
+                decoration: BoxDecoration(
+                  color: const Color.fromARGB(255, 255, 230, 0),
+                  borderRadius: BorderRadius.circular(20),
+                ),
+              ),
+              Container(
+                height: 230,
+                width: double.infinity,
+                decoration: BoxDecoration(
+                  color: const Color.fromARGB(255, 255, 230, 0),
+                  borderRadius: BorderRadius.circular(20),
+                ),
+              )
             ],
           ),
-        )
+        ),
       ),
     );
   }
