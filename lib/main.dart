@@ -18,36 +18,70 @@ class MyApp extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Container(
-                height: 135,
+                height: 130,
                 width: double.infinity,
                 decoration: BoxDecoration(
-                  color: const Color.fromARGB(255, 255, 230, 0),
-                  borderRadius: BorderRadius.circular(20),
-                ),
+                    color: const Color.fromARGB(255, 0, 255, 132),
+                    borderRadius: BorderRadius.circular(10)),
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Container(
+                    height: 130,
+                    width: 200,
+                    decoration: BoxDecoration(
+                        color: const Color.fromARGB(255, 0, 255, 132),
+                        borderRadius: BorderRadius.circular(10)),
+                  ),
+                  Container(
+                    height: 130,
+                    width: 200,
+                    decoration: BoxDecoration(
+                        color: const Color.fromARGB(255, 0, 255, 132),
+                        borderRadius: BorderRadius.circular(10)),
+                  )
+                ],
               ),
               Container(
-                height: 135,
+                height: 130,
                 width: double.infinity,
                 decoration: BoxDecoration(
-                  color: const Color.fromARGB(255, 255, 230, 0),
-                  borderRadius: BorderRadius.circular(20),
-                ),
+                    color: const Color.fromARGB(255, 0, 255, 132),
+                    borderRadius: BorderRadius.circular(10)),
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Container(
+                    height: 130,
+                    width: 130,
+                    decoration: BoxDecoration(
+                        color: const Color.fromARGB(255, 0, 255, 132),
+                        borderRadius: BorderRadius.circular(10)),
+                  ),
+                  Container(
+                    height: 130,
+                    width: 130,
+                    decoration: BoxDecoration(
+                        color: const Color.fromARGB(255, 0, 255, 132),
+                        borderRadius: BorderRadius.circular(10)),
+                  ),
+                  Container(
+                    height: 130,
+                    width: 130,
+                    decoration: BoxDecoration(
+                        color: const Color.fromARGB(255, 0, 255, 132),
+                        borderRadius: BorderRadius.circular(10)),
+                  )
+                ],
               ),
               Container(
-                height: 135,
+                height: 130,
                 width: double.infinity,
                 decoration: BoxDecoration(
-                  color: const Color.fromARGB(255, 255, 230, 0),
-                  borderRadius: BorderRadius.circular(20),
-                ),
-              ),
-              Container(
-                height: 230,
-                width: double.infinity,
-                decoration: BoxDecoration(
-                  color: const Color.fromARGB(255, 255, 230, 0),
-                  borderRadius: BorderRadius.circular(20),
-                ),
+                    color: const Color.fromARGB(255, 0, 255, 132),
+                    borderRadius: BorderRadius.circular(10)),
               )
             ],
           ),
